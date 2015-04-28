@@ -83,6 +83,36 @@
     </div>	
     <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
         <p>poner <b>ejemplos</b> <span class="thoughts">por favor</span></p>
+       <div>
+       <p> Un primer diálogo básico</p></br>
+<p>Nuestro primer ejemplo no será muy ambicioso, se trata de ilustrar un simple diálogo que se abrirá al ser 
+cargada la página, con un mensaje en su interior y ninguna funcionalidad adicional.</p></br>
+
+<p>El código es el del Listado 1 y se comentará seguidamente. </p></br>
+        
+      <!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>jQuery UI Dialog - Uso básico</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script>
+$(function () {
+$("#dialog").dialog();
+});
+</script>
+</head>
+
+<body>
+Diálogo:
+<div id="dialog" title="Dialogo básico">
+<p>Diálogo básico amodal. Puede ser movido, redimensionado y cerrado haciendo clic sobre el botón 'X'.</p>
+</div>
+</body>
+</html>   
+      
     </div>
 
     <!--
